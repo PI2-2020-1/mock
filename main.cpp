@@ -105,8 +105,6 @@ void loop() {
 
         int httpResponseCode = http.POST(input); 
 
-        Serial.println("La temperatura es " + String(temp) +"°C");  // mensaje con la temperatura
-
         if(httpResponseCode>0){
             String response = http.getString();  //Get the response to the request
             Serial.print("CODIGO: ");
