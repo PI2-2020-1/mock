@@ -18,22 +18,22 @@ int time1 = 1;  // time in minutes
 int time2;      // delay between requests
 
 void setup() {
-  Serial.begin(9600);
-  Serial.println(F("BME280 test"));
+    Serial.begin(9600);
+    Serial.println(F("BME280 test"));
 
-  bool status;
+    bool status;
 
-  // default settings
-  status = bme.begin(0x76);  
-  if (!status) {
-    Serial.println("Could not find a valid BME280 sensor, check wiring!");
-    while (1);
-  }
+    // default settings
+    status = bme.begin(0x76);  
+    if (!status) {
+        Serial.println("Could not find a valid BME280 sensor, check wiring!");
+        while (1);
+    }
 
-  Serial.println("-- Default Test --");
-  time2 = time1*60*1000;
+    Serial.println("-- Default Test --");
+    time2 = time1*60*1000;
 
-  Serial.println();
+    Serial.println();
 }
 
 void connect_wifi(){
