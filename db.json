@@ -1,0 +1,108 @@
+{
+  "station": [
+    {
+      "id": 1,
+      "farmOwner": {
+        "username": "joao678",
+        "email": "joao678@gmail.com",
+        "fullName": "João da Silva Costa",
+        "telegram": "@joao678"
+      },
+      "requestDetails": {
+        "stationIndex": 1,
+        "latitude": -15.809538,
+        "longitude": -48.0959865,
+        "dateTime": "Sat Oct 17 2020 15:44:06 GMT-0300"
+      },
+      "soil": {
+        "pH": 5.6,
+        "soilMoistude": 80
+      },
+      "environment": {
+        "temperature": 30,
+        "airHumidity": 70,
+        "atmosphericPressure": 1,
+        "windSpeed": 11,
+        "pluviometricIndex": 5
+      }
+    },
+    {
+      "id": 2,
+      "farmOwner": {
+        "username": "joao678",
+        "email": "joao678@gmail.com",
+        "fullName": "João da Silva Costa",
+        "telegram": "@joao678"
+      },
+      "requestDetails": {
+        "stationIndex": 1,
+        "latitude": -15.809538,
+        "longitude": -48.0959865,
+        "dateTime": "Sat Oct 17 2020 17:15:09 GMT-0300"
+      },
+      "soil": {
+        "pH": 5.8,
+        "soilMoistude": 75
+      },
+      "environment": {
+        "temperature": 33,
+        "airHumidity": 75,
+        "atmosphericPressure": 1,
+        "windSpeed": 15,
+        "pluviometricIndex": 6
+      }
+    },
+    {
+      "id": 3,
+      "farmOwner": {
+        "username": "joao678",
+        "email": "joao678@gmail.com",
+        "fullName": "João da Silva Costa",
+        "telegram": "@joao678"
+      },
+      "requestDetails": {
+        "stationIndex": 1,
+        "latitude": -15.809538,
+        "longitude": -48.0959865,
+        "dateTime": "Sat Oct 17 2020 18:05:03 GMT-0300"
+      },
+      "soil": {
+        "pH": 5.7,
+        "soilMoistude": 80
+      },
+      "environment": {
+        "temperature": 23,
+        "airHumidity": 77,
+        "atmosphericPressure": 1,
+        "windSpeed": 16,
+        "pluviometricIndex": 7
+      }
+    },
+    {
+      "id": 4,
+      "farmOwner": {
+        "username": "joao678",
+        "email": "joao678@gmail.com",
+        "fullName": "João da Silva Costa",
+        "telegram": "@joao678"
+      },
+      "requestDetails": {
+        "stationIndex": 1,
+        "latitude": -15.809538,
+        "longitude": -48.0959865,
+        "dateTime": "Sat Oct 18 2020 15:44:06 GMT-0300"
+      },
+      "soil": {
+        "pH": 5.6,
+        "soilMoistude": 86
+      },
+      "environment": {
+        "temperature": 30,
+        "airHumidity": 70,
+        "atmosphericPressure": 1,
+        "windSpeed": 12,
+        "pluviometricIndex": 5
+      }
+    }
+  ]
+}
