@@ -1,30 +1,28 @@
 # Mock Estação A2P2
 
-Mock que simula as requisições das estações A2P2 com os dados do solo obtido pelos sensores.
+### Mock que simula as requisições das estações A2P2 com os dados do solo obtido pelos sensores.
 
-## Requisições
+## Método GET
 
-### Métodos GET
-
-Retorna todos os objetos: 
+### Retorna todos os objetos: 
 ```
  /station 
 ```
-Retorna o objeto com o id de uma requisição específica da estação: 
+### Retorna o objeto com o id de uma requisição específica da estação: 
 ```
  /station/:id
 ```
 
-### Método POST
+## Método POST
 
-Cria um novo objeto contendo informaçõe que a estação A2P2 coletou: 
+### Cria um novo objeto contendo informaçõe que a estação A2P2 coletou: 
 ```
 /station 
 ```
 ```
-    O corpo esperado:
-      {
-    "id": 4,
+  - Para criar um objeto o corpo esperado é (com id único) :
+  {
+    "id": "number",
     "farmOwner": {
       "username": "string",
       "email": "string",
@@ -50,3 +48,23 @@ Cria um novo objeto contendo informaçõe que a estação A2P2 coletou:
     }
   }
 ```
+
+## Rodando o projeto
+
+### Navegue até a raíz do projeto e instale as dependências:
+```
+yarn
+```
+### ou caso use npm:
+
+```
+npm install
+```
+### Rode o projeto para subir o servidor:
+```
+yarn start
+```
+### ou caso use npm:
+
+```
+npm start
